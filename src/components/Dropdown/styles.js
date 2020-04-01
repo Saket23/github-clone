@@ -53,7 +53,7 @@ export const DropdownCaret = styled.span`
 
 export const ListWrapper = styled.ul`
   padding-left: 0px;
-  display: flex;
+  display: ${({ listVisible }) => (listVisible ? "flex" : "none")};
   flex-direction: column;
   font-size: 12px;
   border: 1px solid #d1d5da;
