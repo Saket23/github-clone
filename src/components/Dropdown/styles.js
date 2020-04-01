@@ -87,6 +87,7 @@ export const SingleList = styled.li`
   text-align: left;
   cursor: pointer;
   border-bottom: 1px solid #d9d9d9;
+  background-color: white;
   svg {
     vertical-align: text-bottom;
     margin-right: 15px;
