@@ -40,7 +40,7 @@ function getRepoData(searchValue, languageValue, typeValue, data) {
         newData = newData.filter(d => d.fork === true);
         break;
       case "Archived":
-        newData = newData.filter(d => d.archived === false);
+        newData = newData.filter(d => d.archived === true);
         break;
       case "Mirrors":
         newData = newData.filter(d => d.mirror_url !== null);
