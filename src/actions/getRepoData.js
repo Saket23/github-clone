@@ -21,7 +21,7 @@ function failure(error) {
 }
 
 function getDataUrl() {
-  return axios.get(`https://api.github.com/users/supreetsingh247/repos`);
+  return axios.get(`https://api.github.com/users/saket23/repos`);
 }
 
 export default function getRepoData() {
